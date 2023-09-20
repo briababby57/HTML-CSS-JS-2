@@ -183,3 +183,4 @@ requiredFiles = [".replit", "replit.nix", ".config"]
 [deployment]
 publicDir = "/"
 deploymentTarget = "static"
+build = ["sh", "-c", "Npm build "]
