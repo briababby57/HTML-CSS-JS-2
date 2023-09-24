@@ -1,108 +1,186 @@
-section, aside, h1, h2, h3, h4, p, code {
-  margin: 0;
-  padding: 15px;
-}
-aside {
-  width: 40%;
-  float: right;
-  background-color: lightgray;
-  border: 2px solid black;
-  border-radius: 5px;
-  box.->,#} a<a href="index.html" class="button">Home</a>
-5px 5px 5px 5px gray;
-}
-h1, h2, h3, h4 {
-  color: beige;
-  font-family: Times new roman;
-  text-align: center;
-}
-  
+
+h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #2f4f4f;
+	text-align: center;
+	margin-top: 50px;
 }
 
-  
-  code {
-    
-  color: red;
-  font-family: Times new roman;
-  font-size: 15px;
-  text-align: left;
-  border-radius: 5px;
-  padding: 5px;
-  background-color: lightgray;
-  border: 2px solid black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  height: 80%;
-  overflow: auto;
-  resize: both;
-  overflow-x: hidden;
-  overflow-y: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-    
+p {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
 }
-h3 {
-  color: Darkblue;
-  font-family: Times new roman;
-  font-size: 20px;
-  text-align: center;
+
+a {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
 }
-h4 {
-  color: black;
-  <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <a href="page2.html">Page 2</a>
-  <header>
-    <h1>Welcome to CoWik Homepage</h1>
-    <p> Where you come when in  <strong>doubt/ confused</strong> </p>
-    <p>CoWik is a guide on how to write code with Python in the simplest way possible<em>.</p>
-  </header>
-
-  <main>
-    <h1>Python Basics</h1>
-    <nav>
-      <ul>
-        <li><a href="#introduction">Introduction</a></li>
-      </ul>
-    </nav>
-    
-    <section id="introduction">
-      <h2>Introduction</h2>
-      <p>Python is a popular programming language that is used for a variety of purposes, including web development, data analysis, machine learning, and more.</p>
-      <p>Python is a high-level language that is easy to read and write, and has a wide range of libraries and modules that can be used to extend its functionality.</p>
-      <p>In this guide, we will explore the basics of Python and how to use it to write code that is easy to read and understandS4.</p<>
-    </section>
-index.html
-Displaying index.html.
-  <script src="script.js"></script>
-  
-  
-    <!-- ...the rest of your HTML content... -->
-  </main>
-</body>
-
-</html>
-font-family: Times new roman;
-  font-size: 20px;
-  text-align: center;
+href {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
 }
-nav {
-  background-color: beige;
-  color:  black;
-  padding: 10px;
-  text-align: center;
-  border-radius: 5px;
-  border: 2px solid black;
-  display: block;
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #2f4f4f;
+	color: #fff;
+li {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
 }
+	nav home {
+		background-color: #2f4f4f;
+		color: #fff;
+		padding: 10px;
+		text-align: center; 
+		box-shadow: 0px 2px 5px rgba(0,0,0,0.3);
+		margin-bottom: 20px;
+		border-radius: 5px;
+		width: 80%;
+		margin: 0 auto;
+		
+	}
+	li {
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.2em;
+		color: darkblue;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.button {
+		display: inline-block;
+		padding: 10px 20px;
+		background-color: #2f4f4f;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+	}
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	color: darkblue;
+	text-align: center;
+	margin-top: 20px;
+}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.2em;
+		color: darkblue;
+		text-align: center;
+		margin-top: 20px;
+	}
+	
+	.button:hover {
+		background-color: #3cb371;
+	}
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+
+		aside {
+			position: value;
+			top: 0;
+			right: 0;
+			width: 300px;
+			height: 100%;
+			background-color: #f2f2f2;
+			
+			border: 1px solid #ccc;
+		background-color: #f2f2f2;
+		padding: 20px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.2em;
+		color: darkblue;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		margin-right: 20px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	}
+		pre code {
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-size: 1.2em;
+			color: darkblue;
+			text-align: center;
+			margin-top: 20px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+			padding: 10px;
+			background-color: #f2f2f2;
+			display: block;
+			margin-bottom: 20px;
+			margin-left: 20px;
+			margin-right: 20px;
+			border: 1px solid #ccc;
+}
+		
+		aside {
+			background-color: #f2f2f2;
+			padding: 20px;
+			margin-top: 50px;
+			margin-bottom: 50px;
+			text-align: center;
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 1.2em;
+		path {
+			fill: #2f4f4f;
+			stroke: #2f4f4f;
+			stroke-width: 2;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+			stroke-miterlimit: 10;
+		}
+/* Path: style.css /
